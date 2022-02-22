@@ -1,0 +1,133 @@
+// main: main.scss
+@font-face {
+    font-family: "#{$icomoon-font-family}";
+    src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?199dn8");
+    src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?199dn8#iefix")
+            format("embedded-opentype"),
+        url("#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?199dn8")
+            format("truetype"),
+        url("#{$icomoon-font-path}/#{$icomoon-font-family}.woff?199dn8")
+            format("woff"),
+        url("#{$icomoon-font-path}/#{$icomoon-font-family}.svg?199dn8##{$icomoon-font-family}")
+            format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: "#{$icomoon-font-family}" !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-coin {
+    &:before {
+        content: $icon-coin;
+    }
+}
+.icon-bookmark {
+    &:before {
+        content: $icon-bookmark;
+    }
+}
+.icon-user-two {
+    &:before {
+        content: $icon-user-two;
+    }
+}
+.icon-filter {
+    &:before {
+        content: $icon-filter;
+    }
+}
+.icon-heart {
+    &:before {
+        content: $icon-heart;
+    }
+}
+.icon-restaurant {
+    &:before {
+        content: $icon-restaurant;
+    }
+}
+.icon-security {
+    &:before {
+        content: $icon-security;
+    }
+}
+.icon-info {
+    &:before {
+        content: $icon-info;
+    }
+}
+.icon-edit {
+    &:before {
+        content: $icon-edit;
+    }
+}
+.icon-card {
+    &:before {
+        content: $icon-card;
+    }
+}
+.icon-cash {
+    &:before {
+        content: $icon-cash;
+    }
+}
+.icon-logo {
+    &:before {
+        content: $icon-logo;
+    }
+}
+.icon-home {
+    &:before {
+        content: $icon-home;
+    }
+}
+.icon-discount {
+    &:before {
+        content: $icon-discount;
+    }
+}
+.icon-dashboard {
+    &:before {
+        content: $icon-dashboard;
+    }
+}
+.icon-message {
+    &:before {
+        content: $icon-message;
+    }
+}
+.icon-notification {
+    &:before {
+        content: $icon-notification;
+    }
+}
+.icon-logout {
+    &:before {
+        content: $icon-logout;
+    }
+}
+.icon-delete {
+    &:before {
+        content: $icon-delete;
+    }
+}
+.icon-settings {
+    &:before {
+        content: $icon-settings;
+    }
+}
